@@ -1,0 +1,17 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.chestnut.dev/schema/ChestnutBackup.xsd"
+    xmlns="https://www.chestnut.dev/schema/ChestnutBackup.xsd">
+<xsd:annotation>
+    <xsd:documentation xml:lang="en">
+     XML Schema for Chestnut Backup Configuration Files
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="ChestnutBackup" type="ChestnutBackupType" />
+
+  <xsd:complexType name="ChestnutBackupType">
+    <xsd:sequence>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>
